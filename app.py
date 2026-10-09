@@ -6,7 +6,7 @@ import streamlit as st
 from analytics import analyze
 
 st.set_page_config(page_title='CAPM & Stock Beta Analyzer', page_icon='📊', layout='wide')
-st.title('📊 CAPM & Stock Beta Analyzer')
+st.title('CAPM & Stock Beta Analyzer')
 st.caption('Explore systematic risk, CAPM-implied returns and rolling beta using historical prices.')
 with st.sidebar:
     stock = st.text_input('Stock ticker', 'RELIANCE.NS').strip().upper()
